@@ -1,0 +1,18 @@
+﻿@inherits LayoutComponentBase
+
+<div class="topnav">
+    <div class="topnav-inner">
+        <a class="brand" href="/">MiniEshop</a>
+
+        <div class="topnav-links">
+            <NavLink href="/" class="topnav-link" Match="NavLinkMatch.All">Home</NavLink>
+            <NavLink href="/products" class="topnav-link">Products</NavLink>
+            <NavLink href="/cart" class="topnav-link">Cart</NavLink>
+            <NavLink href="/admin" class="topnav-link">Admin</NavLink>
+        </div>
+    </div>
+</div>
+
+<div class="app-shell">
+    @Body
+</div>
